@@ -54,3 +54,4 @@ the client, publishes `client/dist`, and exposes the Express app through the
 project environment settings when persistent enquiry submissions are required.
 
 Current institutional facts and outbound links were checked against the official website at https://www.siet.ac.in/ in August 2026. The brand mark is implemented as a replaceable text/SVG lockup because the live origin blocks direct asset retrieval.
+# SIET_WEB

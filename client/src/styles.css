@@ -16639,29 +16639,6 @@ header nav,
   }
 }
 
-<<<<<<< HEAD
-
-/* Responsive desktop header-menu labels and aligned dropdown indicators. */
-@media(min-width:1251px) {
-
-  .institution-header-v4 .institution-nav-group>button,
-  .institution-header-v4 .institution-nav-link {
-    font-size: clamp(12px, 0.85vw, 14.5px) !important;
-    font-weight: 750 !important;
-    letter-spacing: -.01em !important;
-    padding: 0 clamp(4px, 0.5vw, 9px) !important;
-  }
-
-  .institution-header-v4 .institution-nav-group>button svg {
-    width: 13px !important;
-    height: 13px !important;
-    flex: none !important;
-  }
-
-  .institution-header-v4 .institution-nav-group>div a {
-    font-size: 13px !important;
-    =======
-
     /* Larger desktop header-menu labels and aligned dropdown indicators. */
     @media(min-width:1251px) {
 
@@ -16680,7 +16657,7 @@ header nav,
 
       .institution-header-v4 .institution-nav-group>div a {
         font-size: 14px !important;
-        >>>>>>>Manish
+        
       }
     }
 
@@ -16895,8 +16872,6 @@ header nav,
         height: 108px !important
       }
 
-      <<<<<<< HEAD
-
       /* Complete responsive footer sitemap */
       .site-footer {
         padding: 70px clamp(22px, 5vw, 80px) 24px;
@@ -17038,11 +17013,11 @@ header nav,
         text-align: center
       }
 
-      =======.institution-header-v4 .institution-divider {
+      .institution-header-v4 .institution-divider {
         height: 90% !important
       }
 
-      >>>>>>>Manish .institution-header-v4 .institution-nba {
+      .institution-header-v4 .institution-nba {
         height: 104px !important
       }
 
@@ -17375,7 +17350,7 @@ header nav,
     }
 
     /* Footer matching the supplied full-width reference */
-    <<<<<<< HEAD .site-footer.footer-reference {
+    .site-footer.footer-reference {
       position: relative;
       display: block;
       padding: 0 clamp(28px, 3.2vw, 62px) 24px;
@@ -17649,17 +17624,7 @@ header nav,
       background: #e6b500
     }
 
-    =======.site-footer.footer-reference {
-      position: relative;
-      display: block;
-      padding: 0 clamp(28px, 3.2vw, 62px) 24px;
-      background: radial-gradient(circle at 48% 42%, rgba(0, 112, 70, .2), transparent 28%), linear-gradient(135deg, #003820, #002b1c 58%, #003d27);
-      border-top: 10px solid #e7ad16;
-      color: #fff;
-      font-family: 'Montserrat', 'Plus Jakarta Sans', sans-serif
-    }
-
-    >>>>>>>Manish .footer-reference .footer-top {
+    .footer-reference .footer-top {
       display: grid;
       grid-template-columns: minmax(315px, 1.05fr) minmax(0, 4.6fr);
       gap: 30px;
@@ -18018,7 +17983,7 @@ header nav,
     }
 
     /* Compact footer variant matching the latest reference */
-    <<<<<<< HEAD .site-footer.footer-reference {
+    .site-footer.footer-reference {
       margin: 0;
       padding: 0 clamp(28px, 3.4vw, 66px) 0;
       border-top: 8px solid #e6b500;
@@ -18124,15 +18089,7 @@ header nav,
       background: #e6b500
     }
 
-    =======.site-footer.footer-reference {
-      margin: 0;
-      padding: 0 clamp(28px, 3.4vw, 66px) 0;
-      border-top: 8px solid #e6b500;
-      border-radius: 5px 5px 0 0;
-      background: radial-gradient(circle at 16% 84%, rgba(0, 119, 72, .22), transparent 30%), linear-gradient(118deg, #003f27, #00331f 58%, #00412a)
-    }
-
-    >>>>>>>Manish .footer-reference .footer-top {
+    .footer-reference .footer-top {
       grid-template-columns: minmax(320px, 1.2fr) minmax(0, 4.4fr);
       gap: 26px;
       padding: 62px 0 58px;
@@ -22234,31 +22191,7 @@ header .nav-group>div{top:60px}.header-accreditations+ .counselling-code{align-s
     }
 
     /* Principal's Desk shares the leadership system with the Chairman's Desk. */
-    <<<<<<< HEAD .principal-page .chairman-photo {
-      height: 320px;
-      background: transparent
-    }
-
-    .principal-page .chairman-photo img {
-      object-fit: cover;
-      object-position: center top
-    }
-
-    .principal-page .chairman-message aside h2 {
-      font-size: 22px
-    }
-
-    .principal-page .principal-message blockquote {
-      font-size: clamp(16px, 1.3vw, 20px)
-    }
-
-    @media(max-width:850px) {
-      .principal-page .chairman-photo {
-        height: min(420px, 100vw)
-      }
-    }
-
-    =======.principal-page .chairman-photo {
+.principal-page .chairman-photo {
       height: 480px;
       background: #7d2018
     }
@@ -22282,7 +22215,7 @@ header .nav-group>div{top:60px}.header-accreditations+ .counselling-code{align-s
       }
     }
 
-    >>>>>>>Manish
+    
 
     /* Vision hero refinement based on the supplied composition. */
     .vision-hero {
@@ -27130,7 +27063,7 @@ header .nav-group>div{top:60px}.header-accreditations+ .counselling-code{align-s
         overflow: visible !important;
       }
 
-      <<<<<<< HEAD .institution-nav-group {
+      .institution-nav-group {
         position: relative !important;
         display: flex !important;
         align-items: stretch !important;
@@ -27259,7 +27192,7 @@ header .nav-group>div{top:60px}.header-accreditations+ .counselling-code{align-s
         color: #00854a !important;
       }
 
-      =======>>>>>>>Manish .institution-nav-apply {
+      .institution-nav-apply {
         display: inline-flex !important;
         align-items: center !important;
         justify-content: center !important;
@@ -29373,7 +29306,7 @@ header .nav-group>div{top:60px}.header-accreditations+ .counselling-code{align-s
     }
 
     /* Vision & Mission — isolated premium About page */
-    <<<<<<< HEAD .siet-vm-page {
+    .siet-vm-page {
       --vm-green: #00854a;
       --vm-deep: #00281b;
       --vm-lime: #82bc56;

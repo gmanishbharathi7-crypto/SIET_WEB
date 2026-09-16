@@ -21,11 +21,36 @@ const aboutDesktopMenu = () => `<div class="institution-about-menu"><a href="#/v
 const aboutMobileMenu = () => `<a href="#/vision-mission" class="mobile-nav-sublink">Vision &amp; Mission</a><a href="#/chairman" class="mobile-nav-sublink">From Chairman's Desk</a><a href="#/principal" class="mobile-nav-sublink">From Principal's Desk</a>`;
 const pageCopy = {
   'admission-referral': ['Admission Referral', 'Recommend an aspiring student to Sri Shakthi.', 'Support prospective engineers by connecting them with our admissions team through the institutional referral programme.'],
-  academics: ['Academic Overview', 'Knowledge designed for application.', 'Flexible learning, strong fundamentals, laboratories, projects and industry exposure form the core of the Sri Shakthi academic experience.'], departments: ['Departments', 'Ten disciplines. One culture of discovery.', 'Explore engineering and technology departments offering focused learning, laboratories, research and industry engagement.'], curriculum: ['Curriculum', 'Current, connected and outcome-driven.', 'The curriculum combines disciplinary depth, professional skills, multidisciplinary electives, projects and experiential learning.'], 'academic-calendar': ['Academic Calendar', 'Plan the academic year.', 'Semester schedules bring together instruction, assessment, events, examinations and academic milestones.'], library: ['Central Library', 'A connected knowledge centre.', 'Print and digital resources, journals, databases and focused study environments support teaching, learning and research.'], examinations: ['Examinations', 'Clear processes. Fair assessment.', 'The Controller of Examinations coordinates schedules, evaluation, results and academic records for autonomous programmes.'], programmes: ['UG & PG Programmes', 'Choose the field you want to shape.', 'Undergraduate and postgraduate pathways connect engineering foundations with emerging technologies and real-world practice.'], eligibility: ['Eligibility', 'Your pathway to Sri Shakthi.', 'Admission eligibility follows applicable Government of Tamil Nadu, AICTE and Anna University norms.'], scholarships: ['Scholarships', 'Talent deserves opportunity.', 'Merit and need-based scholarship pathways help ambitious learners access high-quality engineering education.'], fees: ['Fee Information', 'Clear guidance for applicants.', 'Contact the admissions office for programme-specific fee structure, counselling and scholarship guidance.'], 'campus-life': ['Campus Life', 'Learn. Build. Belong.', 'A vibrant 45-acre eco-friendly campus brings together academics, culture, sport, entrepreneurship and community.'], facilities: ['Facilities', 'Spaces made for exploration.', 'Advanced laboratories, collaborative classrooms, seminar halls, digital infrastructure and student support facilities.'], hostel: ['Hostel', 'A welcoming campus home.', 'Student residences support safe, comfortable living, shared learning and a strong sense of community.'], transport: ['Transport', 'Connected to Coimbatore.', 'College transport supports convenient travel across major routes in and around the city.'], sports: ['Sports', 'Energy beyond academics.', 'With 26+ activities and a proud competitive record, sport is central to student wellbeing and leadership.'], clubs: ['Student Clubs', 'Find your people. Build your voice.', 'Technical, cultural, social and professional clubs turn interests into projects, events and leadership experience.'], ncc: ['NCC & NSS', 'Unity, discipline and service.', 'Student service programmes develop character, citizenship, teamwork and responsibility.'], placements: ['Placements', 'Preparing talent for meaningful careers.', 'Career readiness spans aptitude, communication, technical training, internships, industry interaction and recruitment.'], training: ['Career Development', 'Skills that move careers forward.', 'Dedicated training helps students build technical confidence, professional communication and placement readiness.'], research: ['Research & Development', 'Ideas engineered into impact.', 'Faculty and students pursue applied research, publications, prototypes, consultancy and interdisciplinary collaboration.'], innovation: ['Innovation & Incubation', 'From problem to prototype.', 'Mentoring, maker culture and entrepreneurial support help student ideas grow into useful solutions and ventures.'], 'centres-of-excellence': ['Centres of Excellence', 'Advanced tools. Industry contexts.', 'Specialist centres connect learners with contemporary platforms, domain expertise and practical challenges.'], accreditations: ['Approvals & Accreditations', 'Quality recognised. Standards sustained.', 'An autonomous institution approved by AICTE, affiliated to Anna University, accredited by NAAC and with eligible programmes accredited by NBA.'], alumni: ['Alumni', 'Shakthians around the world.', 'A growing network of 10,273+ alumni strengthens mentorship, opportunity and lifelong institutional connection.'], iqac: ['IQAC & NAAC', 'Quality as a continuous practice.', 'The Internal Quality Assurance Cell supports evidence-led improvement across academics, governance and student experience.'], contact: ['Contact Us', 'We are here to help.', 'Visit the campus, speak with admissions, or connect with the institute office using the details below.']
+  academics: ['Academic Overview', 'Knowledge designed for application.', 'Flexible learning, strong fundamentals, laboratories, projects and industry exposure form the core of the Sri Shakthi academic experience.'], departments: ['Departments', '21 Specialized UG & PG Disciplines. One culture of discovery.', 'Explore our 14 undergraduate and 7 postgraduate engineering and technology departments offering focused learning, world-class laboratories, research and industry engagement.'], curriculum: ['Curriculum', 'Current, connected and outcome-driven.', 'The curriculum combines disciplinary depth, professional skills, multidisciplinary electives, projects and experiential learning.'], 'academic-calendar': ['Academic Calendar', 'Plan the academic year.', 'Semester schedules bring together instruction, assessment, events, examinations and academic milestones.'], library: ['Central Library', 'A connected knowledge centre.', 'Print and digital resources, journals, databases and focused study environments support teaching, learning and research.'], examinations: ['Examinations', 'Clear processes. Fair assessment.', 'The Controller of Examinations coordinates schedules, evaluation, results and academic records for autonomous programmes.'], programmes: ['UG & PG Programmes', 'Choose the field you want to shape.', 'Undergraduate and postgraduate pathways connect engineering foundations with emerging technologies and real-world practice.'], eligibility: ['Eligibility', 'Your pathway to Sri Shakthi.', 'Admission eligibility follows applicable Government of Tamil Nadu, AICTE and Anna University norms.'], scholarships: ['Scholarships', 'Talent deserves opportunity.', 'Merit and need-based scholarship pathways help ambitious learners access high-quality engineering education.'], fees: ['Fee Information', 'Clear guidance for applicants.', 'Contact the admissions office for programme-specific fee structure, counselling and scholarship guidance.'], 'campus-life': ['Campus Life', 'Learn. Build. Belong.', 'A vibrant 45-acre eco-friendly campus brings together academics, culture, sport, entrepreneurship and community.'], facilities: ['Facilities', 'Spaces made for exploration.', 'Advanced laboratories, collaborative classrooms, seminar halls, digital infrastructure and student support facilities.'], hostel: ['Hostel', 'A welcoming campus home.', 'Student residences support safe, comfortable living, shared learning and a strong sense of community.'], transport: ['Transport', 'Connected to Coimbatore.', 'College transport supports convenient travel across major routes in and around the city.'], sports: ['Sports', 'Energy beyond academics.', 'With 26+ activities and a proud competitive record, sport is central to student wellbeing and leadership.'], clubs: ['Student Clubs', 'Find your people. Build your voice.', 'Technical, cultural, social and professional clubs turn interests into projects, events and leadership experience.'], ncc: ['NCC & NSS', 'Unity, discipline and service.', 'Student service programmes develop character, citizenship, teamwork and responsibility.'], placements: ['Placements', 'Preparing talent for meaningful careers.', 'Career readiness spans aptitude, communication, technical training, internships, industry interaction and recruitment.'], training: ['Career Development', 'Skills that move careers forward.', 'Dedicated training helps students build technical confidence, professional communication and placement readiness.'], research: ['Research & Development', 'Ideas engineered into impact.', 'Faculty and students pursue applied research, publications, prototypes, consultancy and interdisciplinary collaboration.'], innovation: ['Innovation & Incubation', 'From problem to prototype.', 'Mentoring, maker culture and entrepreneurial support help student ideas grow into useful solutions and ventures.'], 'centres-of-excellence': ['Centres of Excellence', 'Advanced tools. Industry contexts.', 'Specialist centres connect learners with contemporary platforms, domain expertise and practical challenges.'], accreditations: ['Approvals & Accreditations', 'Quality recognised. Standards sustained.', 'An autonomous institution approved by AICTE, affiliated to Anna University, accredited by NAAC and with eligible programmes accredited by NBA.'], alumni: ['Alumni', 'Shakthians around the world.', 'A growing network of 10,273+ alumni strengthens mentorship, opportunity and lifelong institutional connection.'], iqac: ['IQAC & NAAC', 'Quality as a continuous practice.', 'The Internal Quality Assurance Cell supports evidence-led improvement across academics, governance and student experience.'], contact: ['Contact Us', 'We are here to help.', 'Visit the campus, speak with admissions, or connect with the institute office using the details below.']
 };
-const programs = [
-  ['Agricultural Engineering', 'Smart farming, irrigation, machinery and sustainable food systems.', '/assets/images/category/cat1.jpg'], ['Biomedical Engineering', 'Diagnostic, therapeutic and healthcare technologies.', '/assets/images/category/cat2.jpg'], ['Biotechnology', 'Bioprocessing, molecular science and industrial biotechnology.', '/assets/images/category/cat3.jpg'], ['Civil Engineering', 'Resilient infrastructure, structures and sustainable cities.', '/assets/images/category/cat4.jpg'], ['Computer Science & Engineering', 'Intelligent software, data systems and AI-powered solutions.', '/assets/images/category/cat5.jpg'], ['Electrical & Electronics', 'Power systems, renewable energy and industrial automation.', '/assets/images/category/cat6.jpg'], ['Electronics & Communication', 'Connected systems, embedded design and signal processing.', '/assets/images/category/cat7.jpg'], ['Food Technology', 'Food processing, quality, safety and product development.', '/assets/images/category/cat8.jpg'], ['Information Technology', 'Secure digital products, cloud platforms and networks.', '/assets/images/course/3.jpg'], ['Mechanical Engineering', 'Design, manufacturing, machines and mobility systems.', '/assets/images/course/6.jpg'], ['Artificial Intelligence & Data Science', 'AI, analytics and data-driven engineering.', '/assets/images/course/3.jpg'], ['Artificial Intelligence & Machine Learning', 'Intelligent automation and applied AI.', '/assets/images/category/cat5.jpg'], ['CSE (Cyber Security)', 'Secure computing and resilient networks.', '/assets/images/course/3.jpg'], ['VLSI Design', 'Semiconductor design and embedded systems.', '/assets/images/category/cat7.jpg']
+const ugPrograms = [
+  { code: 'AGRI', degree: 'B.Tech', name: 'Agricultural Engineering', fullName: 'B.Tech - Agricultural Engineering', desc: 'Smart farming, precision irrigation, agro-machinery automation and sustainable food systems.', duration: '4 Years', img: '/assets/images/category/cat1.jpg', deptSlug: 'agricultural-engineering' },
+  { code: 'AI&DS', degree: 'B.Tech', name: 'Artificial Intelligence and Data Science', fullName: 'B.Tech - Artificial Intelligence and Data Science', desc: 'Mathematical foundations, predictive modeling, big data analytics, neural computing and data engineering.', duration: '4 Years', img: '/assets/images/course/3.jpg', deptSlug: 'artificial-intelligence-and-data-science' },
+  { code: 'AI&ML', degree: 'B.Tech', name: 'Artificial Intelligence and Machine Learning', fullName: 'B.Tech - Artificial Intelligence and Machine Learning', desc: 'Deep learning architectures, computer vision, generative AI algorithms, NLP and intelligent robotics.', duration: '4 Years', img: '/assets/images/category/cat5.jpg', deptSlug: 'artificial-intelligence-and-machine-learning' },
+  { code: 'BME', degree: 'B.E', name: 'Biomedical Engineering', fullName: 'B.E - Biomedical Engineering', desc: 'Medical instrumentation, physiological monitoring, biomaterials, diagnostic imaging and assistive healthcare robotics.', duration: '4 Years', img: '/assets/images/category/cat2.jpg', deptSlug: 'biomedical-engineering' },
+  { code: 'BIOTECH', degree: 'B.Tech', name: 'Biotechnology', fullName: 'B.Tech - Biotechnology', desc: 'Molecular science, bioprocessing, genetic engineering, industrial microbiology, downstream separation and bioinformatics.', duration: '4 Years', img: '/assets/images/category/cat3.jpg', deptSlug: 'biotechnology' },
+  { code: 'CIVIL', degree: 'B.E', name: 'Civil Engineering', fullName: 'B.E - Civil Engineering', desc: 'Smart structural analysis, geotechnical design, green building technology, BIM and environmental hydraulics.', duration: '4 Years', img: '/assets/images/category/cat4.jpg', deptSlug: 'civil-engineering' },
+  { code: 'CSE', degree: 'B.E', name: 'Computer Science and Engineering', fullName: 'B.E - Computer Science and Engineering', desc: 'Core computer science foundations, intelligent algorithms, cloud computing, data structures and enterprise systems.', duration: '4 Years', img: '/assets/images/category/cat5.jpg', deptSlug: 'computer-science-and-engineering' },
+  { code: 'CYBER', degree: 'B.E', name: 'Computer Science and Engineering ( Cyber Security )', fullName: 'B.E - Computer Science and Engineering ( Cyber Security )', desc: 'Digital forensics, ethical hacking, cryptographic protocols, cloud security frameworks and SOC threat intelligence.', duration: '4 Years', img: '/assets/images/course/3.jpg', deptSlug: 'computer-science-and-engineering' },
+  { code: 'EEE', degree: 'B.E', name: 'Electrical and Electronics Engineering', fullName: 'B.E - Electrical and Electronics Engineering', desc: 'Power systems, smart grid architectures, electric mobility, renewable energy conversion and industrial drives.', duration: '4 Years', img: '/assets/images/category/cat6.jpg', deptSlug: 'electrical-and-electronics' },
+  { code: 'ECE', degree: 'B.E', name: 'Electronics and Communication Engineering', fullName: 'B.E - Electronics and Communication Engineering', desc: '5G RF communications, embedded IoT systems, digital signal processing, microelectronics and modern telecommunication.', duration: '4 Years', img: '/assets/images/category/cat7.jpg', deptSlug: 'electronics-and-communication' },
+  { code: 'FOOD', degree: 'B.Tech', name: 'Food Technology', fullName: 'B.Tech - Food Technology', desc: 'Food preservation, dairy processing, industrial packaging, safety certifications and precision nutrition formulation.', duration: '4 Years', img: '/assets/images/category/cat8.jpg', deptSlug: 'food-technology' },
+  { code: 'IT', degree: 'B.Tech', name: 'Information Technology', fullName: 'B.Tech - Information Technology', desc: 'Full-stack software engineering, cloud networking, DevOps automation, enterprise database systems and cyber infrastructure.', duration: '4 Years', img: '/assets/images/course/3.jpg', deptSlug: 'information-technology' },
+  { code: 'MECH', degree: 'B.E', name: 'Mechanical Engineering', fullName: 'B.E - Mechanical Engineering', desc: 'Computational mechanics, thermodynamics, additive manufacturing, automotive engineering and advanced robotics.', duration: '4 Years', img: '/assets/images/course/6.jpg', deptSlug: 'mechanical-engineering' },
+  { code: 'VLSI', degree: 'B.E', name: 'Electronics Engineering ( VLSI Design & Technology)', fullName: 'B.E - Electronics Engineering ( VLSI Design & Technology)', desc: 'Semiconductor design, CMOS digital/analog ICs, FPGA synthesis, physical design verification and System-on-Chip (SoC).', duration: '4 Years', img: '/assets/images/category/cat7.jpg', deptSlug: 'vlsi-design' }
 ];
+
+const pgPrograms = [
+  { code: 'M-CSE', degree: 'M.E', name: 'Computer Science and Engineering', fullName: 'M.E - Computer Science and Engineering', desc: 'Advanced algorithms, machine learning research, distributed cloud systems and high-performance computing.', duration: '2 Years', img: '/assets/images/category/cat5.jpg', deptSlug: 'computer-science-and-engineering' },
+  { code: 'M-VLSI', degree: 'M.E', name: 'VLSI Design', fullName: 'M.E - VLSI Design', desc: 'Advanced semiconductor microelectronics, ASIC design flows, physical synthesis, low-power VLSI and SoC testing.', duration: '2 Years', img: '/assets/images/category/cat7.jpg', deptSlug: 'vlsi-design' },
+  { code: 'M-CAD', degree: 'M.E', name: 'CAD/CAM', fullName: 'M.E - CAD/CAM', desc: 'Advanced computer-aided design, generative modeling, CNC automation, finite element simulation and precision tooling.', duration: '2 Years', img: '/assets/images/course/6.jpg', deptSlug: 'mechanical-engineering' },
+  { code: 'M-EMB', degree: 'M.E', name: 'Embedded System Technologies', fullName: 'M.E - Embedded System Technologies', desc: 'Real-time operating systems (RTOS), IoT architectures, ARM microcontrollers, automotive electronics and firmware engineering.', duration: '2 Years', img: '/assets/images/category/cat6.jpg', deptSlug: 'electrical-and-electronics' },
+  { code: 'M-STR', degree: 'M.E', name: 'Structural Engineering', fullName: 'M.E - Structural Engineering', desc: 'Advanced earthquake-resistant design, prestressed concrete, smart materials, tall structures and structural health monitoring.', duration: '2 Years', img: '/assets/images/category/cat4.jpg', deptSlug: 'civil-engineering' },
+  { code: 'M-FOOD', degree: 'M.Tech', name: 'Food Technology', fullName: 'M.Tech - Food Technology', desc: 'Advanced food processing technologies, biopolymers, food biotechnology, functional food development and global quality systems.', duration: '2 Years', img: '/assets/images/category/cat8.jpg', deptSlug: 'food-technology' },
+  { code: 'M-FARM', degree: 'M.Tech', name: 'Farm Machinery', fullName: 'M.Tech - Farm Machinery', desc: 'Advanced agricultural power machinery, precision agro-robotics, bio-energy engineering and automated harvesting systems.', duration: '2 Years', img: '/assets/images/category/cat1.jpg', deptSlug: 'agricultural-engineering' }
+];
+
+const programs = ugPrograms.map(p => [p.name, p.desc, p.img]);
 
 function header() {
   return `<div class="notice"><div class="notice-track"><span><b>ADMISSIONS 2026–27 NOW OPEN</b><i></i> Applications are invited for undergraduate and postgraduate engineering programmes <i></i> Begin your journey at Sri Shakthi <i></i> TNEA Counselling Code: 2727</span><span aria-hidden="true"><b>ADMISSIONS 2026–27 NOW OPEN</b><i></i> Applications are invited for undergraduate and postgraduate engineering programmes <i></i> Begin your journey at Sri Shakthi <i></i> TNEA Counselling Code: 2727</span></div></div>
@@ -43,11 +68,24 @@ function homePage() {
  <div class="placement-v2-panel reveal"><div class="placement-v2-panel-head">2026–27 PLACEMENT HIGHLIGHTS (TILL 31ST JULY 2026)</div><div class="placement-v2-highest"><span>${icon('trophy')}</span><div><small>HIGHEST PLACED PACKAGE</small><strong>₹${counter(33)} LPA</strong></div><i></i><div class="placement-v2-record"><large>PLACEMENT RECORD</large><strong>CLASS OF 2027</strong></div></div><div class="placement-v2-stats">${[[16, '₹10 LPA+', 'gift'], [37, '₹8 LPA+', 'trend'], [82, '₹5.5 LPA+', 'brief']].map(([n, p, i]) => `<article><span class="placement-v2-icon">${icon(i)}</span><strong>${counter(n, n === 82 ? '+' : '')}</strong><h3>Students Placed</h3><i></i><b>${p}</b></article>`).join('')}</div></div>
 </div></div></section>
 <section class="about-premium"><div class="about-container"><div class="about-label reveal"><span>01</span><p>WHO WE ARE</p></div><div class="about-main"><div class="about-heading reveal"><h2>A campus where <span class="highlight-word">curiosity</span> becomes <span>capability.</span></h2></div><div class="about-content reveal"><span class="about-small-title">OUR PURPOSE</span><p>Sri Shakthi Institute of Engineering and Technology is an autonomous institution in Coimbatore, approved by AICTE and affiliated to Anna University.</p><p>Our industry-driven ecosystem brings engineering out of textbooks and into the real world.</p><button type="button" class="discover-link js-discover-btn">Discover our vision ${icon('arrow')}</button></div></div><div class="stats-grid">${[[4263, 'Job offers', 'Last 5 Years'], [657, 'Offers in 2026', 'Growing Every Year'], [10273, 'Alumni Worldwide', 'Connected Globally'], [4452, 'Students on Campus', 'Learning & Innovating']].map(([n, t, s], i) => `<article class="stat-box reveal"><span class="stat-index">0${i + 1}</span><h3>${counter(n, '+')}</h3><p>${t}</p><span class="stat-subtitle">${s}</span></article>`).join('')}</div></div></section>
-<section class="programmes-showcase programmes-section"><div class="programmes-container"><div class="section-kicker"><span>02</span><i></i><span>FIND YOUR FIELD</span></div><div class="programmes-hero reveal"><div class="programmes-heading"><h2>Programmes built for a <em>changing</em> world.</h2></div><div class="programmes-info"><p>Foundational rigour, advanced technology labs, industry collaboration and project-led learning.</p><div class="programme-toggle"><button class="toggle-btn active" data-level="UG">UG Programmes</button><button class="toggle-btn" data-level="PG">PG Programmes</button></div></div></div><div class="programme-area"><div class="programme-header"><div><small>EXPLORE</small><h3><span id="level-name">UG</span> Programmes</h3></div></div><div id="programme-grid" class="programme-grid">${programmeCards(programs)}</div></div></div></section>
+<section class="programmes-showcase programmes-section"><div class="programmes-container"><div class="section-kicker"><span>02</span><i></i><span>FIND YOUR FIELD</span></div><div class="programmes-hero reveal"><div class="programmes-heading"><h2>Programmes built for a <em>changing</em> world.</h2></div><div class="programmes-info"><p>Foundational rigour, advanced technology labs, industry collaboration and project-led learning.</p><div class="programme-toggle"><button class="toggle-btn active" data-level="UG">UG Programmes (14)</button><button class="toggle-btn" data-level="PG">PG Programmes (7)</button></div></div></div><div class="programme-area"><div class="programme-header"><div><small>EXPLORE</small><h3><span id="level-name">UG</span> Programmes (<span id="level-count">14</span> Degrees)</h3></div><a href="#/programmes" class="view-all-programmes-btn">View All UG &amp; PG Programmes &rarr;</a></div><div id="programme-grid" class="programme-grid">${programmeCards(ugPrograms)}</div></div></div></section>
 <section class="campus-section"><div class="campus-container"><aside class="campus-left reveal"><div class="section-kicker"><span>03</span><i></i><span>LIFE AT SRI SHAKTHI</span></div><h1>Campus Moments.<em>Student stories.</em></h1><p>Explore learning, innovation, celebrations and everyday campus experiences from the Sri Shakthi community.</p><button type="button" class="button js-explore-campus">Explore campus ${icon('arrow')}</button></aside><main class="campus-content"><div class="campus-gallery">${[['placements.png', 'A campus that inspires every day.'], ['student-life.png', 'Victory is a habit here.'], ['cultural.png', 'Culture. Tradition. Every performance.'], ['innovation.png', 'Ideas that create impact.']].map(([img, t]) => `<div class="gallery-card reveal" role="button" tabindex="0"><img src="/brand/campus-life/${img}" alt="${t}"><div class="gallery-content"><h3>${t}</h3><span>→</span></div></div>`).join('')}</div></main></div></section></main>`
 }
 
-function programmeCards(list) { return list.map(([n, d]) => `<div class="programme-card programme-card-simple reveal" role="button" tabindex="0"><span class="programme-icon">◆</span><h4>${n}</h4><span class="arrow-btn">→</span></div>`).join('') }
+function programmeCards(list) {
+  return list.map(p => {
+    const isObj = typeof p === 'object' && !Array.isArray(p);
+    const fullName = isObj ? p.fullName : p[0];
+    const degree = isObj ? p.degree : (fullName.startsWith('M.') ? 'PG' : 'UG');
+    const slug = isObj ? p.deptSlug : slugify(fullName);
+    const degreeClass = isObj ? (p.degree.startsWith('M') ? 'degree-pg' : 'degree-ug') : '';
+    return `<a href="#/department/${slug}" class="programme-card programme-card-simple reveal" role="button" tabindex="0">
+      <span class="programme-degree-pill ${degreeClass}">${degree}</span>
+      <h4>${fullName}</h4>
+      <span class="arrow-btn">→</span>
+    </a>`;
+  }).join('');
+}
 const slugify = s => s.toLowerCase().replaceAll(' ', '-').replaceAll('&', 'and').replaceAll('/', '-');
 const vmIcon = (name) => ({
   eye: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 12s3.5-6 9.5-6 9.5 6 9.5 6-3.5 6-9.5 6-9.5-6-9.5-6Z"/><circle cx="12" cy="12" r="2.7"/></svg>',
@@ -105,30 +143,328 @@ function philosophyPage() { const principles = [['Learn by doing', 'Learning bec
 function chairmanPage() { return `<main class="siet-cd-page"><section class="siet-cd-hero"><div class="siet-cd-grid"></div><div class="siet-cd-hero-glow"></div><div class="siet-cd-shell"><div class="siet-cd-breadcrumb"><a href="#/">Home</a><span>/</span><span>About Us</span><span>/</span><b>Chairman’s Desk</b></div><div class="siet-cd-hero-layout"><div class="siet-cd-portrait reveal"><div class="siet-cd-portrait-ring"></div><img src="/brand/chairman-transparent.png" alt="Dr. S. Thangavelu, Chairman"><div class="siet-cd-name"><strong>Dr. S. Thangavelu</strong><span>Chairman</span><small>Sri Shakthi Group of Institutions</small></div></div><div class="siet-cd-hero-copy reveal"><p class="siet-cd-kicker"><i></i> A MESSAGE FROM THE CHAIRMAN</p><h1>A dream built on <em>equality, excellence</em> and service.</h1><p>Building an institution where every student is encouraged to learn deeply, think boldly and contribute meaningfully.</p><a href="#chairman-message" class="siet-cd-scroll">Read the message <span>${vmIcon('arrow')}</span></a></div></div></div></section><section id="chairman-message" class="siet-cd-content"><div class="siet-cd-shell siet-cd-layout">${AboutSidebar('chairman')}<article class="siet-cd-message"><div class="siet-cd-message-head reveal"><p>CHAIRMAN’S MESSAGE</p><h2>Education that empowers<br><em>each individual.</em></h2></div><div class="siet-cd-prose reveal"><p>I have always been inspired by Dr. Martin Luther King's statement, ‘I have a dream’ — a dream I believe will come true — a dream that my children will one day live in a world where they will not be judged by the colour of their skin, but by the content of their character. This need for tolerance — to create an equal society with no discrimination in caste, creed or colour — was best exemplified in the words of Mahatma Gandhi.</p><blockquote>“I do not want my institution to be walled off on all sides. I want the culture of all lands to be blown about my institution as freely as possible. But I refuse to be blown off by any one of them.”</blockquote><p>And this I believe will be the watchword of each and every Shakthian.</p><p>The vision for Sri Shakthi is to make the institution one of our nation's great engineering schools, recognized nationally and internationally for excellence in teaching, research and public service. We seek to be the preferred destination for students, practitioners seeking an engineering education, employers hiring engineering graduates and organizations seeking engineering knowledge.</p><div class="siet-cd-signoff"><span></span><div><strong>Dr. S. Thangavelu</strong><small>Chairman, Sri Shakthi Group of Institutions</small></div></div></div></article></div></section></main>` }
 function principalPage() { return `<main class="chairman-page principal-page"><section class="chairman-content"><aside class="chairman-portrait reveal"><img src="/brand/principal-saravana-kumar.png" alt="Principal"><h2>Dr. N. M. Saravana Kumar</h2><b>Principal, SIET</b></aside><article class="chairman-message reveal"><small>FROM THE PRINCIPAL'S DESK</small><h1>Learning that moves beyond the classroom.</h1><p>Welcome to our institution, where excellence in education, innovation, and character development form the foundation of our academic journey.</p><p>We provide a vibrant learning environment that empowers students with knowledge, technical expertise and essential life skills. Our faculty continuously strive to deliver quality education through innovative teaching, industry collaboration, research and experiential learning.</p><blockquote>We prepare graduates to become competent professionals, responsible citizens and future leaders.</blockquote><strong>Dr. N. M. Saravana Kumar, M.E., Ph.D.<br>Principal, SIET</strong></article></section></main>` }
 
-const departmentDetails = { 'Agricultural Engineering': { courses: [['B.E - Agricultural Engineering', '60'], ['M.Tech - Farm Machinery', '18']], overview: 'The department of Agricultural Engineering was started in Sri Shakthi Institute of Engineering and Technology (SSIET), Coimbatore, in 2015. The Chairman, Dr. S Thangavelu, is himself an Agricultural Engineer and a Ph. D. degree holder in Bio Energy from Tamil Nadu Agricultural University (TNAU), Coimbatore, and worked as a faculty for 28 years in TNAU. During the past years, the department has been in the journey with SSIET to fulfil the motto, “Powering the Youth, Empowering the Nation”. The department offers B. E. Agriculture Engineering, focussing on widening the practical knowledge of the students thus encouraging them to solve different practical difficulties in small-landholdings. Well-qualified faculty members are the strength of the department. The department constitutes experienced and dedicated faculty and supporting staff members with excellent academic research and industrial work experience to promote research and intervention in the existing methods. Presently, the faculty consists of experts from farm machinery and power, soil and water conservation engineering, agricultural processing, civil engineering, mechanical engineering, food technology and agriculture. Further, the practical knowledge gained by them during practical field works and industrial visits has been added advantage for new technology and innovations. The department is new in offering the degree program in the institute. Despite, about 30 students have been graduated during 2019 from the department and are well placed. At present there are 375 students are admitted in the degree program, and the department is envisage more students in the future.' }, default: { courses: [], overview: 'The department combines strong academic foundations with practical laboratory learning, industry exposure, project work and research. Experienced faculty members guide students to solve real-world engineering problems and build careers for a changing world.' } };
+const departmentDetails = {
+  'Agricultural Engineering': {
+    courses: [['B.Tech - Agricultural Engineering', '60'], ['M.Tech - Farm Machinery', '18']],
+    overview: 'The department of Agricultural Engineering at Sri Shakthi Institute of Engineering and Technology develops practical expertise in precision agriculture, smart irrigation, machinery automation, food processing engineering and bio-energy systems.'
+  },
+  'Artificial Intelligence and Data Science': {
+    courses: [['B.Tech - Artificial Intelligence and Data Science', '120']],
+    overview: 'The department of Artificial Intelligence and Data Science prepares students for careers in machine learning, big data analytics, predictive intelligence, neural computing and enterprise data engineering.'
+  },
+  'Artificial Intelligence and Machine Learning': {
+    courses: [['B.Tech - Artificial Intelligence and Machine Learning', '60']],
+    overview: 'The department of Artificial Intelligence and Machine Learning focuses on deep learning, generative algorithms, computer vision, natural language processing, cognitive architectures and autonomous robotics.'
+  },
+  'Biomedical Engineering': {
+    courses: [['B.E - Biomedical Engineering', '60']],
+    overview: 'The department of Biomedical Engineering bridges technological innovation with clinical medicine, specializing in diagnostic imaging, physiological signal monitoring, biomaterials, telemedicine and medical robotics.'
+  },
+  'Biotechnology': {
+    courses: [['B.Tech - Biotechnology', '60']],
+    overview: 'The department of Biotechnology blends biological science with engineering to innovate in molecular therapeutics, industrial bioprocessing, genetic engineering, enzymes, downstream separation and bioinformatics.'
+  },
+  'Civil Engineering': {
+    courses: [['B.E - Civil Engineering', '60'], ['M.E - Structural Engineering', '18']],
+    overview: 'The department of Civil Engineering develops expertise in resilient infrastructure design, advanced smart structural engineering, geotechnical analysis, environmental hydraulics, green building and BIM.'
+  },
+  'Computer Science and Engineering': {
+    courses: [['B.E - Computer Science and Engineering', '180'], ['B.E - Computer Science and Engineering ( Cyber Security )', '60'], ['M.E - Computer Science and Engineering', '18']],
+    overview: 'The department of Computer Science and Engineering delivers comprehensive education in core computing foundations, algorithm engineering, cloud platforms, cybersecurity, distributed systems and intelligent applications.'
+  },
+  'Electrical and Electronics Engineering': {
+    courses: [['B.E - Electrical and Electronics Engineering', '60'], ['M.E - Embedded System Technologies', '18']],
+    overview: 'The department of Electrical and Electronics Engineering empowers students in power systems, smart grids, electric mobility powertrains, renewable energy conversion, embedded controllers and industrial automation.'
+  },
+  'Electronics and Communication Engineering': {
+    courses: [['B.E - Electronics and Communication Engineering', '120']],
+    overview: 'The department of Electronics and Communication Engineering focuses on 5G wireless networks, RF microwave systems, embedded IoT devices, digital signal processing, antenna engineering and microelectronics.'
+  },
+  'Food Technology': {
+    courses: [['B.Tech - Food Technology', '60'], ['M.Tech - Food Technology', '18']],
+    overview: 'The department of Food Technology focuses on post-harvest engineering, dairy processing, industrial packaging technologies, functional foods, quality assurance and international food safety certifications.'
+  },
+  'Information Technology': {
+    courses: [['B.Tech - Information Technology', '120']],
+    overview: 'The department of Information Technology emphasizes scalable software architecture, cloud platforms, DevOps engineering, database systems, web technologies and enterprise cybersecurity infrastructure.'
+  },
+  'Mechanical Engineering': {
+    courses: [['B.E - Mechanical Engineering', '60'], ['M.E - CAD/CAM', '18']],
+    overview: 'The department of Mechanical Engineering combines fundamental thermal-fluid sciences with advanced CAD/CAM modeling, additive manufacturing, finite element analysis, automotive powertrain design and robotics.'
+  },
+  'Electronics Engineering ( VLSI Design & Technology)': {
+    courses: [['B.E - Electronics Engineering ( VLSI Design & Technology)', '60'], ['M.E - VLSI Design', '18']],
+    overview: 'The department of VLSI Design & Technology specializes in semiconductor microelectronics, analog/digital CMOS integrated circuit design, FPGA synthesis, physical verification and System-on-Chip (SoC) architectures.'
+  },
+  'VLSI Design': {
+    courses: [['B.E - Electronics Engineering ( VLSI Design & Technology)', '60'], ['M.E - VLSI Design', '18']],
+    overview: 'The department of VLSI Design & Technology specializes in semiconductor microelectronics, analog/digital CMOS integrated circuit design, FPGA synthesis, physical verification and System-on-Chip (SoC) architectures.'
+  },
+  default: {
+    courses: [],
+    overview: 'The department combines strong academic foundations with practical laboratory learning, industry exposure, project work and research. Experienced faculty members guide students to solve real-world engineering problems and build careers for a changing world.'
+  }
+};
+
+departmentDetails['Electrical & Electronics'] = departmentDetails['Electrical and Electronics Engineering'];
+departmentDetails['Electronics & Communication'] = departmentDetails['Electronics and Communication Engineering'];
+departmentDetails['Artificial Intelligence & Data Science'] = departmentDetails['Artificial Intelligence and Data Science'];
+departmentDetails['Artificial Intelligence & Machine Learning'] = departmentDetails['Artificial Intelligence and Machine Learning'];
+departmentDetails['Computer Science & Engineering'] = departmentDetails['Computer Science and Engineering'];
+departmentDetails['CSE (Cyber Security)'] = departmentDetails['Computer Science and Engineering'];
+departmentDetails['Cyber Security'] = departmentDetails['Computer Science and Engineering'];
+departmentDetails['Cad Cam'] = departmentDetails['Mechanical Engineering'];
+departmentDetails['CAD/CAM'] = departmentDetails['Mechanical Engineering'];
+departmentDetails['Cad/Cam'] = departmentDetails['Mechanical Engineering'];
+departmentDetails['Embedded System Technologies'] = departmentDetails['Electrical and Electronics Engineering'];
+departmentDetails['Structural Engineering'] = departmentDetails['Civil Engineering'];
+departmentDetails['Farm Machinery'] = departmentDetails['Agricultural Engineering'];
+departmentDetails['Vlsi Design'] = departmentDetails['VLSI Design'];
+departmentDetails['Electronics Engineering (VLSI Design & Technology)'] = departmentDetails['VLSI Design'];
+departmentDetails['Electronics Engineering ( VLSI Design & Technology)'] = departmentDetails['VLSI Design'];
+
 programs.forEach(([name, description]) => { if (!departmentDetails[name]) departmentDetails[name] = { courses: [['B.E - ' + name, '60']], overview: 'The ' + name + ' department at Sri Shakthi Institute of Engineering and Technology develops practical expertise through laboratory learning, industry exposure, projects and research. ' + description } });
-function departmentPage(dept) { 
-  const detail = departmentDetails[dept] || departmentDetails.default; 
-  const courses = detail.courses.length ? detail.courses : [['B.E - ' + dept, '60']]; 
-  const sections = ['About the Department', 'Why ' + dept + ' at SIET', 'Unique Facilities', 'Vision & Mission', 'Programme Educational Objectives', 'Programme Specific Outcomes', 'Programme Outcomes', 'Faculty Profile', 'PAC Members', 'Academic Calendar', 'Achievements', 'Curriculum', 'Placements-Key Companies', 'Student Placements', 'Newsletter & Magazine', 'Alumni Corner', 'Feedback']; 
-  const overviewSub = detail.overview ? (detail.overview.length > 115 ? detail.overview.slice(0, 112) + '…' : detail.overview) : `Excellence in education, research and innovation in ${dept}.`; 
+
+function departmentPage(dept) {
+  const detailKey = Object.keys(departmentDetails).find(k => k.toLowerCase() === dept.toLowerCase()) || dept;
+  const detail = departmentDetails[detailKey] || departmentDetails.default;
+  const courses = detail.courses && detail.courses.length ? detail.courses : [['B.E - ' + dept, '60']];
+  const sections = ['About the Department', 'Why ' + dept + ' at SIET', 'Unique Facilities', 'Vision & Mission', 'Programme Educational Objectives', 'Programme Specific Outcomes', 'Programme Outcomes', 'Faculty Profile', 'PAC Members', 'Academic Calendar', 'Achievements', 'Curriculum', 'Placements-Key Companies', 'Student Placements', 'Newsletter & Magazine', 'Alumni Corner', 'Feedback'];
   const deptCurriculum = getDeptCurriculum(dept);
-  return `<main class="department-detail-page">${sietHudHeader(dept, dept)}<div class="department-detail-layout"><aside class="department-detail-nav" aria-label="Department sections">${sections.map((section, index) => `<button class="${index === 0 ? 'active' : ''}" type="button" data-section="department-section-${index}">${section}</button>`).join('')}</aside><article class="department-detail-content"><div class="department-intake"><table><thead><tr><th>Courses Offered</th><th>Intake</th></tr></thead><tbody>${courses.map(([course, intake]) => `<tr><td>${course}</td><td>${intake}</td></tr>`).join('')}</tbody></table></div><section id="department-section-0" class="department-copy is-open"><h2>About the Department</h2><p>${detail.overview}</p></section>${sections.slice(1).map((section, index) => section === 'Curriculum' ? `<section id="department-section-${index + 1}" class="department-copy department-curriculum-section"><h2>Curriculum</h2><div class="dept-curriculum-banner"><div><span class="curr-badge">AUTONOMOUS R2024</span><h2>${dept} Curriculum Structure</h2><p>Explore the full 8-semester course curriculum, subject codes, lecture/practical hours and credits designed for ${dept}.</p></div><a href="#/curriculum?dept=${deptCurriculum.id}" class="dept-curriculum-action">Open Full 8-Semester Interactive Curriculum →</a></div><div class="curr-table-wrapper">${renderCurriculumTable(deptCurriculum.id, 1)}</div></section>` : `<section id="department-section-${index + 1}" class="department-copy department-placeholder"><h2>${section}</h2><p>${section} information for ${dept} will be updated by the department office.</p></section>`).join('')}</article></div></main>` 
+  return `<main class="department-detail-page">${sietHudHeader(dept, dept)}<div class="department-detail-layout"><aside class="department-detail-nav" aria-label="Department sections">${sections.map((section, index) => `<button class="${index === 0 ? 'active' : ''}" type="button" data-section="department-section-${index}">${section}</button>`).join('')}</aside><article class="department-detail-content"><div class="department-intake"><table><thead><tr><th>Courses Offered</th><th>Intake</th></tr></thead><tbody>${courses.map(([course, intake]) => `<tr><td>${course}</td><td>${intake}</td></tr>`).join('')}</tbody></table></div><section id="department-section-0" class="department-copy is-open"><h2>About the Department</h2><p>${detail.overview}</p></section>${sections.slice(1).map((section, index) => section === 'Curriculum' ? `<section id="department-section-${index + 1}" class="department-copy department-curriculum-section"><h2>Curriculum</h2><div class="dept-curriculum-banner"><div><span class="curr-badge">AUTONOMOUS R2024</span><h2>${dept} Curriculum Structure</h2><p>Explore the full 8-semester course curriculum, subject codes, lecture/practical hours and credits designed for ${dept}.</p></div><a href="#/curriculum?dept=${deptCurriculum.id}" class="dept-curriculum-action">Open Full 8-Semester Interactive Curriculum →</a></div><div class="curr-table-wrapper">${renderCurriculumTable(deptCurriculum.id, 1)}</div></section>` : `<section id="department-section-${index + 1}" class="department-copy department-placeholder"><h2>${section}</h2><p>${section} information for ${dept} will be updated by the department office.</p></section>`).join('')}</article></div></main>`
 }
-function internalPage(route) { 
-  const dept = route.startsWith('department/') ? titleCase(route.slice(11).replaceAll('-', ' ')).replaceAll(' And ', ' & ') : ''; 
-  if (dept) return departmentPage(dept); 
-  const data = pageCopy[route] || ['Sri Shakthi', 'Institutional information', 'Explore Sri Shakthi Institute of Engineering and Technology.']; 
-  const isDepts = route === 'departments';
-  const headerHtml = isDepts 
-    ? sietHudHeader('Departments', 'Departments') 
-    : sietPageHeader(data[0], data[1]);
-  return `<main class="internal-page ${isDepts ? 'departments-index-page' : ''}">${headerHtml}<section class="page-content"><div class="reveal"><div class="section-no">OVERVIEW</div><h2>${data[1]}</h2><p>${data[2]}</p>${route === 'contact' ? '<div class="contact-panel"><b>Sri Shakthi Institute of Engineering & Technology</b><p>Sri Shakthi Nagar, L&T By-Pass, Chinniyampalayam, Coimbatore – 641062</p><p>+91 422 2369900 · info@siet.ac.in</p></div>' : ''}<a class="button" href="#/admission-enquiry">Enquire now ${icon('arrow')}</a></div></section>${['departments', 'programmes'].includes(route) ? `<section class="page-content programme-content"><div class="section-no">PROGRAMMES &amp; DEPARTMENTS</div><div>${programs.map(([n, d, img]) => `<a class="flip-card" href="#/department/${slugify(n)}"><span class="flip-card-inner"><span class="flip-front"><small>DEPARTMENT</small><b>${n}</b><p>${d}</p><span>Explore department →</span></span><span class="flip-back" style="background-image:linear-gradient(180deg,transparent,rgba(3,45,27,.94)),url('${img}')"><b>${n}</b></span></span></a>`).join('')}</div></section>` : ''}</main>` 
+
+function departmentsPage() {
+  return `<main class="siet-programmes-page">
+    ${sietPageHeader('Departments', 'SRI SHAKTHI &bull;DEPARTMENTS')}
+    <section class="siet-prog-container">
+      <div class="siet-prog-controls reveal">
+        <div class="siet-prog-filter-tabs" role="tablist" aria-label="Departments filter">
+          <button type="button" class="siet-prog-filter-btn depts-filter-btn is-active" data-dept-filter="all">All Departments <span class="count-pill">21</span></button>
+          <button type="button" class="siet-prog-filter-btn depts-filter-btn" data-dept-filter="ug">Undergraduate (UG) <span class="count-pill">14</span></button>
+          <button type="button" class="siet-prog-filter-btn depts-filter-btn" data-dept-filter="pg">Postgraduate (PG) <span class="count-pill">7</span></button>
+        </div>
+        <div class="siet-prog-meta-badges">
+          <span class="meta-pill"><i></i> Anna University Autonomous R2024</span>
+          <span class="meta-pill"><i></i> AICTE Approved &amp; NBA Accredited</span>
+        </div>
+      </div>
+
+      <!-- UG CATEGORY SECTION -->
+      <section id="ug-depts-section" class="siet-prog-category-section reveal" data-category="ug">
+        <div class="siet-prog-section-header">
+          <div class="siet-prog-kicker">
+            <span class="badge-accent">UG</span>
+            <small>FOUR-YEAR BACHELOR'S DEGREE</small>
+          </div>
+          <h2>Undergraduate (UG) Programmes</h2>
+          <p>Four-year professional degree programmes combining foundational sciences, industry-led specializations, experiential laboratory learning and multidisciplinary innovation.</p>
+        </div>
+        <div class="siet-prog-grid">
+          ${ugPrograms.map(p => `
+            <article class="siet-prog-card reveal">
+              <div class="siet-prog-card-top">
+                <span class="siet-degree-badge ${p.degree.toLowerCase().replace('.', '')}">${p.degree}</span>
+                <span class="siet-duration-badge">4 Years &bull; Full Time</span>
+              </div>
+              <div class="siet-prog-card-body">
+                <h3>${p.fullName}</h3>
+                <p>${p.desc}</p>
+                <div class="siet-prog-tags">
+                  <span>Autonomous R2024</span>
+                  <span>Industry CoEs</span>
+                  <span>Placement Focus</span>
+                </div>
+              </div>
+              <div class="siet-prog-card-footer">
+                <a href="#/department/${p.deptSlug}" class="siet-prog-link">Explore Department <span>&rarr;</span></a>
+                <a href="#/apply" class="siet-prog-btn-apply">Apply Now</a>
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- PG CATEGORY SECTION -->
+      <section id="pg-depts-section" class="siet-prog-category-section reveal" data-category="pg">
+        <div class="siet-prog-section-header">
+          <div class="siet-prog-kicker">
+            <span class="badge-accent pg">PG</span>
+            <small>TWO-YEAR ADVANCED MASTER'S DEGREE</small>
+          </div>
+          <h2>Postgraduate (PG) Programmes</h2>
+          <p>Two-year advanced master's programmes focused on cutting-edge research, advanced modeling, specialized industrial problem solving, publication and leadership.</p>
+        </div>
+        <div class="siet-prog-grid">
+          ${pgPrograms.map(p => `
+            <article class="siet-prog-card pg-card reveal">
+              <div class="siet-prog-card-top">
+                <span class="siet-degree-badge pg ${p.degree.toLowerCase().replace('.', '')}">${p.degree}</span>
+                <span class="siet-duration-badge">2 Years &bull; Full Time</span>
+              </div>
+              <div class="siet-prog-card-body">
+                <h3>${p.fullName}</h3>
+                <p>${p.desc}</p>
+                <div class="siet-prog-tags">
+                  <span>Autonomous R2024</span>
+                  <span>Research Labs</span>
+                  <span>Industry CoEs</span>
+                </div>
+              </div>
+              <div class="siet-prog-card-footer">
+                <a href="#/department/${p.deptSlug}" class="siet-prog-link">Explore Department <span>&rarr;</span></a>
+                <a href="#/apply" class="siet-prog-btn-apply">Apply Now</a>
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- ADMISSIONS CTA BANNER -->
+      <div class="siet-prog-cta-banner reveal">
+        <div>
+          <small>ADMISSIONS 2026–27</small>
+          <h2>Ready to Choose Your Department?</h2>
+          <p>Talk to our admissions counselors to find the ideal department aligned with your engineering aspirations, TNEA code 2727 and scholarship opportunities.</p>
+        </div>
+        <div class="siet-prog-cta-actions">
+          <a href="#/admission-enquiry" class="button">Admission Enquiry &rarr;</a>
+          <a href="#/admission-referral" class="button secondary">Student Referral</a>
+        </div>
+      </div>
+    </section>
+  </main>`;
+}
+
+function internalPage(route) {
+  const dept = route.startsWith('department/') ? titleCase(route.slice(11).replaceAll('-', ' ')).replaceAll(' And ', ' & ') : '';
+  if (dept) return departmentPage(dept);
+  const data = pageCopy[route] || ['Sri Shakthi', 'Institutional information', 'Explore Sri Shakthi Institute of Engineering and Technology.'];
+  const headerHtml = sietPageHeader(data[0], data[1]);
+  return `<main class="internal-page">${headerHtml}<section class="page-content"><div class="reveal"><div class="section-no">OVERVIEW</div><h2>${data[1]}</h2><p>${data[2]}</p>${route === 'contact' ? '<div class="contact-panel"><b>Sri Shakthi Institute of Engineering & Technology</b><p>Sri Shakthi Nagar, L&T By-Pass, Chinniyampalayam, Coimbatore – 641062</p><p>+91 422 2369900 · info@siet.ac.in</p></div>' : ''}<a class="button" href="#/admission-enquiry">Enquire now ${icon('arrow')}</a></div></section></main>`
 }
 const titleCase = s => s.replace(/\b\w/g, c => c.toUpperCase());
 
-function enquiryPage(apply = false) { return `<main class="enquiry-page-v3">${sietPageHeader(apply ? 'Apply for Sri Shakthi' : 'Admission Enquiry', 'Share your interests and contact details. Our admissions team will guide you in choosing the right programme.', apply ? 'SRI SHAKTHI &bull; APPLY NOW' : 'SRI SHAKTHI &bull; ADMISSION ENQUIRY')}<section class="enquiry-main-v3"><div class="enquiry-heading-v3"><small>ENQUIRY FORM</small><h1>START YOUR ENGINEERING JOURNEY WITH SIET</h1></div><form class="enquiry-form-v3 js-form"><div class="enquiry-fields-v3">${field('Full Name', 'name', 'text', 'Enter your full name')}${field('Mobile Number', 'phone', 'tel', 'Enter 10 digit mobile number')}${field('Email Address', 'email', 'email', 'Enter your email address')}${selectField('Course Level', 'level', ['UG', 'PG'])}${selectField('Preferred Department', 'course', programs.map(p => p[0]))}${field('Academic Qualification / Marks', 'qualification', 'text', 'Qualification and marks')}</div><label>Message / Any Specific Query <b>*</b><textarea name="message" rows="4" required minlength="10"></textarea></label><button class="button" type="submit">${apply ? 'Submit Application' : 'Send Enquiry'} →</button><p class="status" aria-live="polite"></p></form></section></main>` }
-function referralPage() { return `<main class="enquiry-page-v3 referral-page">${sietPageHeader('Admission Referral', 'Recommend an aspiring student for admissions to Sri Shakthi Institute of Engineering & Technology.', 'SRI SHAKTHI &bull; REFERRAL PROGRAMME')}<section class="enquiry-main-v3"><div class="enquiry-heading-v3"><small>REFERRAL PROGRAMME</small><h1>STUDENT ADMISSION REFERRAL</h1><p style="color:#52695c;margin-top:6px;font-size:15px;line-height:1.5">Alumni, students, parents, faculty, and well-wishers can refer candidates for undergraduate and postgraduate engineering admissions.</p></div><form class="enquiry-form-v3 js-form"><div style="font-weight:700;color:#0b3d20;font-size:15px;border-bottom:2px solid #e0ece4;padding-bottom:8px;margin-bottom:14px;letter-spacing:0.02em">REFERRER DETAILS (YOUR INFORMATION)</div><div class="enquiry-fields-v3">${field('Your Full Name', 'referrer_name', 'text', 'Enter your full name')}${field('Your Mobile Number', 'referrer_phone', 'tel', 'Enter your 10 digit mobile number')}${field('Your Email Address', 'referrer_email', 'email', 'Enter your email address')}${selectField('Your Relationship with SIET', 'referrer_relation', ['Alumni', 'Current Student', 'Faculty / Staff', 'Parent', 'Industry Partner', 'Well-wisher'])}</div><div style="font-weight:700;color:#0b3d20;font-size:15px;border-bottom:2px solid #e0ece4;padding-bottom:8px;margin-top:18px;margin-bottom:14px;letter-spacing:0.02em">CANDIDATE DETAILS (STUDENT BEING REFERRED)</div><div class="enquiry-fields-v3">${field('Candidate Full Name', 'candidate_name', 'text', 'Enter candidate\'s full name')}${field('Candidate Mobile Number', 'candidate_phone', 'tel', 'Enter candidate\'s 10 digit mobile number')}${field('Candidate Email Address', 'candidate_email', 'email', 'Enter candidate\'s email')} ${selectField('Preferred Course Level', 'candidate_level', ['UG', 'PG'])}${selectField('Preferred Department', 'candidate_course', programs.map(p => p[0]))}${field('Current Qualification / School', 'candidate_qualification', 'text', 'Class 12 / Diploma / Degree')}</div><label>Message / Reason for Referral<textarea name="remarks" rows="3" placeholder="Tell us about the candidate's achievements, interests, or any specific guidance needed..."></textarea></label><button class="button" type="submit">Submit Referral →</button><p class="status" aria-live="polite"></p></form></section></main>` }
+function programSelectHtml(label, name) {
+  return `
+    <label>${label} <b>*</b>
+      <select name="${name}" required>
+        <option value="">Select ${label}</option>
+        <optgroup label="Undergraduate (UG) Programmes">
+          ${ugPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}
+        </optgroup>
+        <optgroup label="Postgraduate (PG) Programmes">
+          ${pgPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}
+        </optgroup>
+      </select>
+    </label>
+  `;
+}
+
+function programmesPage() {
+  return `<main class="siet-programmes-page">
+    ${sietPageHeader('UG & PG Programmes', 'Explore our distinguished undergraduate and postgraduate engineering & technology programmes.', 'SRI SHAKTHI &bull; ADMISSION PROGRAMMES')}
+    <section class="siet-prog-container">
+      <div class="siet-prog-controls reveal">
+        <div class="siet-prog-filter-tabs" role="tablist" aria-label="Programmes filter">
+          <button type="button" class="siet-prog-filter-btn is-active" data-filter="all">All Programmes <span class="count-pill">21</span></button>
+          <button type="button" class="siet-prog-filter-btn" data-filter="ug">Undergraduate (UG) <span class="count-pill">14</span></button>
+          <button type="button" class="siet-prog-filter-btn" data-filter="pg">Postgraduate (PG) <span class="count-pill">7</span></button>
+        </div>
+        <div class="siet-prog-meta-badges">
+          <span class="meta-pill"><i></i> Anna University Autonomous R2024</span>
+          <span class="meta-pill"><i></i> AICTE Approved &amp; NBA Accredited</span>
+        </div>
+      </div>
+
+      <!-- UG CATEGORY SECTION -->
+      <section id="ug-programmes-section" class="siet-prog-category-section reveal" data-category="ug">
+        <div class="siet-prog-section-header">
+          <div class="siet-prog-kicker">
+            <span class="badge-accent">UG</span>
+            <small>FOUR-YEAR BACHELOR'S DEGREE</small>
+          </div>
+          <h2>Undergraduate (UG) Programmes</h2>
+          <p>Four-year professional degree programmes combining foundational sciences, industry-led specializations, experiential laboratory learning and multidisciplinary innovation.</p>
+        </div>
+        <div class="siet-prog-grid">
+          ${ugPrograms.map(p => `
+            <article class="siet-prog-card reveal">
+              <div class="siet-prog-card-top">
+                <span class="siet-degree-badge ${p.degree.toLowerCase().replace('.', '')}">${p.degree}</span>
+                <span class="siet-duration-badge">4 Years &bull; Full Time</span>
+              </div>
+              <div class="siet-prog-card-body">
+                <h3>${p.fullName}</h3>
+                <p>${p.desc}</p>
+                <div class="siet-prog-tags">
+                  <span>Autonomous R2024</span>
+                  <span>Industry CoEs</span>
+                  <span>Placement Focus</span>
+                </div>
+              </div>
+              <div class="siet-prog-card-footer">
+                <a href="#/department/${p.deptSlug}" class="siet-prog-link">Explore Department <span>&rarr;</span></a>
+                <a href="#/apply" class="siet-prog-btn-apply">Apply Now</a>
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- PG CATEGORY SECTION -->
+      <section id="pg-programmes-section" class="siet-prog-category-section reveal" data-category="pg">
+        <div class="siet-prog-section-header">
+          <div class="siet-prog-kicker">
+            <span class="badge-accent pg">PG</span>
+            <small>TWO-YEAR ADVANCED MASTER'S DEGREE</small>
+          </div>
+          <h2>Postgraduate (PG) Programmes</h2>
+          <p>Two-year advanced master's programmes focused on cutting-edge research, advanced modeling, specialized industrial problem solving, publication and leadership.</p>
+        </div>
+        <div class="siet-prog-grid">
+          ${pgPrograms.map(p => `
+            <article class="siet-prog-card pg-card reveal">
+              <div class="siet-prog-card-top">
+                <span class="siet-degree-badge pg ${p.degree.toLowerCase().replace('.', '')}">${p.degree}</span>
+                <span class="siet-duration-badge">2 Years &bull; Full Time</span>
+              </div>
+              <div class="siet-prog-card-body">
+                <h3>${p.fullName}</h3>
+                <p>${p.desc}</p>
+                <div class="siet-prog-tags">
+                  <span>Autonomous R2024</span>
+                  <span>R&amp;D Publication</span>
+                  <span>Specialized Labs</span>
+                </div>
+              </div>
+              <div class="siet-prog-card-footer">
+                <a href="#/department/${p.deptSlug}" class="siet-prog-link">Explore Department <span>&rarr;</span></a>
+                <a href="#/apply" class="siet-prog-btn-apply">Apply Now</a>
+              </div>
+            </article>
+          `).join('')}
+        </div>
+      </section>
+
+      <!-- ADMISSIONS CTA BANNER -->
+      <section class="siet-prog-cta-banner reveal">
+        <div>
+          <small>ADMISSIONS 2026–27</small>
+          <h2>Begin your engineering journey at Sri Shakthi</h2>
+          <p>Applications are open for undergraduate (TNEA Counselling Code: 2727) and postgraduate engineering admissions.</p>
+        </div>
+        <div class="siet-prog-cta-actions">
+          <a href="#/apply" class="button">Apply Online &rarr;</a>
+          <a href="#/admission-enquiry" class="button secondary">Admission Enquiry</a>
+        </div>
+      </section>
+    </section>
+  </main>`;
+}
+
+function enquiryPage(apply = false) { return `<main class="enquiry-page-v3">${sietPageHeader(apply ? 'Apply for Sri Shakthi' : 'Admission Enquiry', 'Share your interests and contact details. Our admissions team will guide you in choosing the right programme.', apply ? 'SRI SHAKTHI &bull; APPLY NOW' : 'SRI SHAKTHI &bull; ADMISSION ENQUIRY')}<section class="enquiry-main-v3"><div class="enquiry-heading-v3"><small>ENQUIRY FORM</small><h1>START YOUR ENGINEERING JOURNEY WITH SIET</h1></div><form class="enquiry-form-v3 js-form"><div class="enquiry-fields-v3">${field('Full Name', 'name', 'text', 'Enter your full name')}${field('Mobile Number', 'phone', 'tel', 'Enter 10 digit mobile number')}${field('Email Address', 'email', 'email', 'Enter your email address')}${selectField('Course Level', 'level', ['UG', 'PG'])}${programSelectHtml('Preferred Department', 'course')}${field('Academic Qualification / Marks', 'qualification', 'text', 'Qualification and marks')}</div><label>Message / Any Specific Query <b>*</b><textarea name="message" rows="4" required minlength="10"></textarea></label><button class="button" type="submit">${apply ? 'Submit Application' : 'Send Enquiry'} →</button><p class="status" aria-live="polite"></p></form></section></main>` }
+function referralPage() { return `<main class="enquiry-page-v3 referral-page">${sietPageHeader('Admission Referral', 'Recommend an aspiring student for admissions to Sri Shakthi Institute of Engineering & Technology.', 'SRI SHAKTHI &bull; REFERRAL PROGRAMME')}<section class="enquiry-main-v3"><div class="enquiry-heading-v3"><small>REFERRAL PROGRAMME</small><h1>STUDENT ADMISSION REFERRAL</h1><p style="color:#52695c;margin-top:6px;font-size:15px;line-height:1.5">Alumni, students, parents, faculty, and well-wishers can refer candidates for undergraduate and postgraduate engineering admissions.</p></div><form class="enquiry-form-v3 js-form"><div style="font-weight:700;color:#0b3d20;font-size:15px;border-bottom:2px solid #e0ece4;padding-bottom:8px;margin-bottom:14px;letter-spacing:0.02em">REFERRER DETAILS (YOUR INFORMATION)</div><div class="enquiry-fields-v3">${field('Your Full Name', 'referrer_name', 'text', 'Enter your full name')}${field('Your Mobile Number', 'referrer_phone', 'tel', 'Enter your 10 digit mobile number')}${field('Your Email Address', 'referrer_email', 'email', 'Enter your email address')}${selectField('Your Relationship with SIET', 'referrer_relation', ['Alumni', 'Current Student', 'Faculty / Staff', 'Parent', 'Industry Partner', 'Well-wisher'])}<label id="referrer-reg-no-wrapper" class="referral-reg-no-field" style="display:none">Current Student Register Number <b>*</b><input type="text" name="referrer_reg_no" id="referrer_reg_no" placeholder="Enter current student register number" autocomplete="off"></label></div><div style="font-weight:700;color:#0b3d20;font-size:15px;border-bottom:2px solid #e0ece4;padding-bottom:8px;margin-top:18px;margin-bottom:14px;letter-spacing:0.02em">CANDIDATE DETAILS (STUDENT BEING REFERRED)</div><div class="enquiry-fields-v3">${field('Candidate Full Name', 'candidate_name', 'text', 'Enter candidate\'s full name')}${field('Candidate Mobile Number', 'candidate_phone', 'tel', 'Enter candidate\'s 10 digit mobile number')}${field('Candidate Email Address', 'candidate_email', 'email', 'Enter candidate\'s email')} ${selectField('Preferred Course Level', 'candidate_level', ['UG', 'PG'])}${programSelectHtml('Preferred Department', 'candidate_course')}${field('Current Qualification / School', 'candidate_qualification', 'text', 'Class 12 / Diploma / Degree')}</div><label>Message / Reason for Referral<textarea name="remarks" rows="3" placeholder="Tell us about the candidate's achievements, interests, or any specific guidance needed..."></textarea></label><button class="button" type="submit">Submit Referral →</button><p class="status" aria-live="polite"></p></form></section></main>` }
 const field = (label, name, type, placeholder) => `<label>${label} <b>*</b><input type="${type}" name="${name}" placeholder="${placeholder}" required></label>`;
 const selectField = (label, name, opts) => `<label>${label} <b>*</b><select name="${name}" required><option value="">Select ${label}</option>${opts.map(o => `<option>${o}</option>`).join('')}</select></label>`;
 function careersPage() { const cats = [['Leadership Positions', ['Principal / Dean', 'Head of Department', 'Academic Administrator']], ['College Teaching Positions', ['Professor', 'Associate Professor', 'Assistant Professor']], ['School Teaching Positions', ['PGT / TGT Teachers', 'Primary Teachers', 'Academic Coordinators']], ['Food Testing Lab', ['Food Analyst', 'Laboratory Technician', 'Quality Manager']], ['Career Oriented Specialists', ['Aptitude Trainer', 'Programming Trainer', 'Machine Learning Trainer']], ['Managerial Positions', ['HR and Administration', 'Admissions and Outreach']], ['Creative Positions', ['Content and Communications', 'Graphic Designer']]]; return `<main class="careers-page">${sietPageHeader('Faculty Recruitment', 'Join a community of educators, researchers and professionals committed to powering the youth and empowering the nation.', 'SRI SHAKTHI &bull; CAREERS')}<section class="career-main"><div class="career-tabs"><button class="active">Engineering College</button><button>CBSE School</button><button>Food Testing Lab</button></div><div class="career-intro"><img src="/brand/siet-logo.png" alt=""><div><small>AUTONOMOUS INSTITUTION</small><h2>Sri Shakthi Institute of Engineering and Technology</h2><p>We invite passionate educators, researchers and industry professionals to join an institution focused on applied research, innovation and industry-relevant engineering education.</p></div></div><div class="career-application-layout"><form class="career-form js-form"><div class="career-form-head"><small>APPLICATION FORM</small><h2>Faculty &amp; Professional Recruitment</h2></div><div class="career-fields">${field('Full Name', 'name', 'text', 'Enter your full name')}${field('Mobile Number', 'phone', 'tel', 'Enter mobile number')}${field('Email Address', 'email', 'email', 'Enter email')}${selectField('Application Category', 'category', cats.map(c => c[0]))}${field('Position', 'position', 'text', 'Position you would like to apply')}${field('Highest Qualification', 'qualification', 'text', 'Enter highest degree')}<label class="career-wide">Why are you looking for a change?<textarea name="message" rows="4"></textarea></label><label class="career-wide career-file">Upload Resume <b>*</b><input type="file" name="resume" accept=".pdf,.doc,.docx,.rtf" required></label></div><button class="career-submit">Submit Application →</button><p class="status"></p></form><aside class="career-categories"><div class="career-side-title"><small>EXPLORE OPENINGS</small><h2>Application Categories</h2></div>${cats.map((c, i) => `<details ${i === 0 ? 'open' : ''}><summary>${c[0]} ${icon('down')}</summary><div>${c[1].map(r => `<span>→ ${r}</span>`).join('')}</div></details>`).join('')}<div class="career-contact"><small>RECRUITMENT QUERIES</small><h3>Let’s build the future together.</h3><a href="mailto:careers@siet.ac.in">careers@siet.ac.in</a></div></aside></div></section></main>` }
@@ -849,7 +1185,7 @@ function routeParams() {
   return new URLSearchParams(raw.slice(qIndex + 1));
 }
 function enhancedHeader() { return `<div class="notice"><div class="notice-track"><span><b>ADMISSIONS 2026–27 NOW OPEN</b><i></i> Applications are invited for undergraduate and postgraduate engineering programmes <i></i> Begin your journey at Sri Shakthi <i></i> TNEA Counselling Code: 2727</span><span aria-hidden="true"><b>ADMISSIONS 2026–27 NOW OPEN</b><i></i> Applications are invited for undergraduate and postgraduate engineering programmes <i></i> Begin your journey at Sri Shakthi <i></i> TNEA Counselling Code: 2727</span></div></div><header class="institution-header-v4 exact-image-header"><div class="institution-header-shell"><a class="siet-header-image" href="#/" aria-label="Sri Shakthi Institute of Engineering and Technology home"><img src="/brand/siet-exact-header.png" alt="Sri Shakthi Institute of Engineering and Technology" width="2048" height="256"></a><nav class="institution-navbar" aria-label="Main navigation"><button class="institution-mobile-toggle" aria-label="Open navigation menu" type="button">${icon('menu')}</button><a class="institution-mobile-logo" href="#/" aria-label="Sri Shakthi Home"><img src="/brand/siet-logo.png" alt="Sri Shakthi" class="mobile-logo-img"><span class="mobile-logo-text"><b>SRI SHAKTHI</b><small>Autonomous Institution</small></span></a><a class="institution-home" href="#/" aria-label="Home">${icon('home')}</a><div class="institution-menu">${pageGroups.map((g, i) => `${i === 5 ? '<a class="institution-nav-link" href="#/placements">Placements</a>' : ''}<div class="institution-nav-group ${g.label === 'About' ? 'institution-about-group' : ''}"><button type="button">${g.label}${icon('down')}</button>${g.label === 'About' ? aboutDesktopMenu() : `<div>${g.items.map(([s, n]) => `<a href="#/${s}">${n}</a>`).join('')}</div>`}</div>`).join('')}<a class="institution-nav-link" href="#/careers">Careers</a></div><a class="institution-nav-apply" href="#/apply">Apply Now ${icon('arrow')}</a></nav></div></header><div class="mobile-nav-backdrop"></div><aside class="mobile-nav" aria-label="Mobile Navigation"><div class="mobile-nav-header"><a href="#/" class="mobile-nav-brand"><img src="/brand/siet-logo.png" alt="Sri Shakthi"><div><strong>SRI SHAKTHI</strong><small>Autonomous Institution</small></div></a><button class="mobile-nav-close" aria-label="Close menu">${icon('close')}</button></div><div class="mobile-nav-body"><a href="#/" class="mobile-nav-link mobile-nav-home">${icon('home')} Home</a><div class="mobile-nav-accordion">${pageGroups.map((g, i) => `${i === 5 ? '<a class="mobile-nav-link" href="#/placements">Placements</a>' : ''}<div class="mobile-nav-group"><button type="button" class="mobile-nav-group-toggle" aria-expanded="false"><span>${g.label}</span>${icon('down')}</button><div class="mobile-nav-subitems">${g.label === 'About' ? aboutMobileMenu() : g.items.map(([s, n]) => `<a href="#/${s}" class="mobile-nav-sublink">${n}</a>`).join('')}</div></div>`).join('')}<a class="mobile-nav-link" href="#/careers">Careers @ SIET</a></div></div><div class="mobile-nav-footer"><a class="mobile-apply-link" href="#/apply">Apply Now ${icon('arrow')}</a></div></aside>` }
-function render() { if (!appRoot) return; const r = route(); let content = !r ? homePage() : r === 'vision-mission' || r === 'about' ? visionPage() : r === 'program-outcomes' ? programOutcomesPage() : r === 'core-values' ? coreValuesPage() : r === 'philosophy' ? philosophyPage() : r === 'chairman' ? chairmanPage() : r === 'principal' ? principalPage() : r === 'admission-enquiry' || r === 'apply' ? enquiryPage(r === 'apply') : r === 'admission-referral' || r === 'referral' ? referralPage() : r === 'careers' ? careersPage() : r === 'library' ? libraryPage() : r === 'curriculum' ? curriculumPage() : r === 'academic-calendar' ? academicCalendarPage() : internalPage(r); appRoot.innerHTML = enhancedHeader() + content + footer(); document.title = `${r ? titleCase(r.replaceAll('-', ' ')) : 'Sri Shakthi'} | SIET`; bind(); scrollTo(0, 0) }
+function render() { if (!appRoot) return; const r = route(); let content = !r ? homePage() : r === 'vision-mission' || r === 'about' ? visionPage() : r === 'program-outcomes' ? programOutcomesPage() : r === 'core-values' ? coreValuesPage() : r === 'philosophy' ? philosophyPage() : r === 'chairman' ? chairmanPage() : r === 'principal' ? principalPage() : r === 'admission-enquiry' || r === 'apply' ? enquiryPage(r === 'apply') : r === 'admission-referral' || r === 'referral' ? referralPage() : r === 'programmes' ? programmesPage() : r === 'departments' ? departmentsPage() : r === 'careers' ? careersPage() : r === 'library' ? libraryPage() : r === 'curriculum' ? curriculumPage() : r === 'academic-calendar' ? academicCalendarPage() : internalPage(r); appRoot.innerHTML = enhancedHeader() + content + footer(); document.title = `${r ? titleCase(r.replaceAll('-', ' ')) : 'Sri Shakthi'} | SIET`; bind(); scrollTo(0, 0) }
 
 function bind() {
   if (route() === 'chairman') {
@@ -870,7 +1206,88 @@ function bind() {
   if (route() === 'departments') {
     document.title = "Departments | Sri Shakthi Institute of Engineering & Technology";
   }
+  if (route() === 'programmes') {
+    document.title = "UG & PG Programmes | Sri Shakthi Institute of Engineering & Technology";
+  }
 
+  // Filter tabs on Programmes page
+  $$('.siet-prog-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.filter;
+      $$('.siet-prog-filter-btn').forEach(b => {
+        const isActive = b === btn;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      const ugSec = $('#ug-programmes-section');
+      const pgSec = $('#pg-programmes-section');
+      if (filter === 'all') {
+        if (ugSec) ugSec.style.display = '';
+        if (pgSec) pgSec.style.display = '';
+      } else if (filter === 'ug') {
+        if (ugSec) ugSec.style.display = '';
+        if (pgSec) pgSec.style.display = 'none';
+      } else if (filter === 'pg') {
+        if (ugSec) ugSec.style.display = 'none';
+        if (pgSec) pgSec.style.display = '';
+      }
+    });
+  });
+
+  // Filter tabs on Departments page
+  $$('.depts-filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const filter = btn.dataset.deptFilter;
+      $$('.depts-filter-btn').forEach(b => {
+        const isActive = b === btn;
+        b.classList.toggle('is-active', isActive);
+        b.setAttribute('aria-selected', isActive ? 'true' : 'false');
+      });
+      const ugSec = $('#ug-depts-section');
+      const pgSec = $('#pg-depts-section');
+      if (filter === 'all') {
+        if (ugSec) ugSec.style.display = '';
+        if (pgSec) pgSec.style.display = '';
+      } else if (filter === 'ug') {
+        if (ugSec) ugSec.style.display = '';
+        if (pgSec) pgSec.style.display = 'none';
+      } else if (filter === 'pg') {
+        if (ugSec) ugSec.style.display = 'none';
+        if (pgSec) pgSec.style.display = '';
+      }
+    });
+  });
+
+  // Sync Course Level with Preferred Department in Enquiry and Referral forms
+  const setupLevelSync = (levelSelector, courseSelector) => {
+    const levelEl = $(levelSelector);
+    const courseEl = $(courseSelector);
+    if (!levelEl || !courseEl) return;
+    levelEl.addEventListener('change', () => {
+      const val = levelEl.value;
+      const currentVal = courseEl.value;
+      if (val === 'UG') {
+        courseEl.innerHTML = `<option value="">Select Preferred Department</option>${ugPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}`;
+      } else if (val === 'PG') {
+        courseEl.innerHTML = `<option value="">Select Preferred Department</option>${pgPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}`;
+      } else {
+        courseEl.innerHTML = `
+          <option value="">Select Preferred Department</option>
+          <optgroup label="Undergraduate (UG) Programmes">
+            ${ugPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}
+          </optgroup>
+          <optgroup label="Postgraduate (PG) Programmes">
+            ${pgPrograms.map(p => `<option value="${p.fullName}">${p.fullName}</option>`).join('')}
+          </optgroup>
+        `;
+      }
+      if ([...courseEl.options].some(o => o.value === currentVal)) {
+        courseEl.value = currentVal;
+      }
+    });
+  };
+  setupLevelSync('select[name="level"]', 'select[name="course"]');
+  setupLevelSync('select[name="candidate_level"]', 'select[name="candidate_course"]');
 
   const mobile = $('.mobile-nav'), backdrop = $('.mobile-nav-backdrop'), toggle = $('.institution-mobile-toggle'), closeBtn = $('.mobile-nav-close');
   const closeMenu = () => { mobile?.classList.remove('open'); backdrop?.classList.remove('open'); if (toggle) toggle.innerHTML = icon('menu'); document.body.style.overflow = '' };
@@ -888,7 +1305,15 @@ function bind() {
   }));
   $$('.institution-nav-group>button').forEach(btn => btn.addEventListener('click', e => { e.stopPropagation(); const group = btn.parentElement; $$('.institution-nav-group').filter(x => x !== group).forEach(x => x.classList.remove('open')); group.classList.toggle('open') })); document.addEventListener('click', () => $$('.institution-nav-group').forEach(g => g.classList.remove('open')), { once: true });
   $$('.js-video').forEach(b => b.addEventListener('click', () => { document.body.insertAdjacentHTML('beforeend', videoModal()); document.body.style.overflow = 'hidden'; const modal = $('.video-modal'); const close = () => { modal.remove(); document.body.style.overflow = '' }; modal.addEventListener('click', e => e.target === modal && close()); $('.video-close', modal).addEventListener('click', close) }));
-  $$('.toggle-btn').forEach(b => b.addEventListener('click', () => { $$('.toggle-btn').forEach(x => x.classList.toggle('active', x === b)); $('#level-name').textContent = b.dataset.level; $('#programme-grid').innerHTML = programmeCards(b.dataset.level === 'UG' ? programs : programs.slice(0, 7)); observe() }));
+  $$('.toggle-btn').forEach(b => b.addEventListener('click', () => {
+    $$('.toggle-btn').forEach(x => x.classList.toggle('active', x === b));
+    const isUg = b.dataset.level === 'UG';
+    $('#level-name').textContent = b.dataset.level;
+    const countEl = $('#level-count');
+    if (countEl) countEl.textContent = isUg ? '14' : '7';
+    $('#programme-grid').innerHTML = programmeCards(isUg ? ugPrograms : pgPrograms);
+    observe();
+  }));
   const progGrid = $('#programme-grid');
   progGrid?.addEventListener('click', e => {
     const card = e.target.closest('.programme-card');
@@ -1074,9 +1499,34 @@ function bind() {
     }
   });
 
+  // Referral form: Toggle Register Number for Current Student
+  const relationSelect = $('select[name="referrer_relation"]');
+  const regNoWrapper = $('#referrer-reg-no-wrapper');
+  const regNoInput = $('#referrer_reg_no');
+  if (relationSelect && regNoWrapper && regNoInput) {
+    const handleRelationChange = () => {
+      const isCurrentStudent = relationSelect.value === 'Current Student';
+      if (isCurrentStudent) {
+        regNoWrapper.style.display = 'block';
+        regNoInput.required = true;
+        regNoInput.disabled = false;
+      } else {
+        regNoWrapper.style.display = 'none';
+        regNoInput.required = false;
+        regNoInput.disabled = true;
+        regNoInput.value = '';
+      }
+    };
+    relationSelect.addEventListener('change', handleRelationChange);
+    relationSelect.addEventListener('input', handleRelationChange);
+    const form = relationSelect.closest('form');
+    form?.addEventListener('reset', () => setTimeout(handleRelationChange, 0));
+    handleRelationChange();
+  }
+
   $$('.js-form').forEach(form => form.addEventListener('submit', submitForm)); observe();
 }
-async function submitForm(e) { e.preventDefault(); const status = $('.status', e.currentTarget); status.textContent = 'Sending…'; const data = Object.fromEntries(new FormData(e.currentTarget)); try { const res = await fetch('/api/enquiries', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }); const json = await res.json(); status.textContent = json.message || 'Thank you. Your details have been received.'; if (res.ok) e.currentTarget.reset() } catch { status.textContent = 'Form is ready. Start the API server to accept enquiries.' } }
+async function submitForm(e) { e.preventDefault(); const status = $('.status', e.currentTarget); status.textContent = 'Sending…'; const data = Object.fromEntries(new FormData(e.currentTarget)); if (!data.name && data.referrer_name) data.name = `${data.referrer_name} (Ref for: ${data.candidate_name || 'Candidate'})`; if (!data.email && (data.referrer_email || data.candidate_email)) data.email = data.referrer_email || data.candidate_email; if (!data.phone && (data.referrer_phone || data.candidate_phone)) data.phone = data.referrer_phone || data.candidate_phone; if (!data.course && data.candidate_course) data.course = data.candidate_course; try { const res = await fetch('/api/enquiries', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) }); const json = await res.json(); status.textContent = json.message || 'Thank you. Your details have been received.'; if (res.ok) e.currentTarget.reset() } catch { status.textContent = 'Form is ready. Start the API server to accept enquiries.' } }
 function observe() { const reduce = matchMedia('(prefers-reduced-motion:reduce)').matches; const observer = new IntersectionObserver(entries => entries.forEach(entry => { if (!entry.isIntersecting) return; entry.target.classList.add('is-visible'); if (entry.target.classList.contains('js-counter')) animateCounter(entry.target); observer.unobserve(entry.target) }), { threshold: .18 }); $$('.reveal,.js-counter').forEach(el => reduce ? (el.classList.add('is-visible'), el.classList.contains('js-counter') && animateCounter(el)) : observer.observe(el)) }
 function animateCounter(el) { const to = Number(el.dataset.to), suffix = el.dataset.suffix || '', start = performance.now(), duration = 1500; function tick(now) { const p = Math.min((now - start) / duration, 1), v = Math.round(to * (1 - (1 - p) ** 3)); el.textContent = v.toLocaleString('en-IN') + suffix; if (p < 1) requestAnimationFrame(tick) } requestAnimationFrame(tick) }
 const handleEscape = e => { if (e.key === 'Escape') { $('.video-close')?.click(); $('.mobile-nav-close')?.click(); $('.js-lib-modal-close')?.click(); $('.js-curr-modal-close')?.click(); } };

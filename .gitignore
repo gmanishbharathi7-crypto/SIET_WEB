@@ -6,3 +6,4 @@ dist/
 .env
 .DS_Store
 *.log
+plans/responsiveness_fix_plan.md
